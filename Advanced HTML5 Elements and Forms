@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h1>Important Topics</h1>
+    <ol type="I">
+        <li>Introduction to HTML</li>
+        <li>CSS Basics</li>
+        <li>JavaScript Fundamentals</li>
+        <li>Responsive Design</li>
+        <li>Web Accessibility</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Inspiring Image</h2>
+    <img src="https://images.pexels.com/photos/123456/pexels-photo-123456.jpeg" alt="Inspiring View from Pexels" width="400">
+
+    <!-- Table of 5 Contacts -->
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Elm Street</td>
+                <td>+1234567890</td>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Maple Avenue</td>
+                <td>+9876543210</td>
+                <td>jane.smith@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>789 Oak Lane</td>
+                <td>+1122334455</td>
+                <td>michael.j@example.com</td>
+            </tr>
+            <tr>
+                <td>Sarah Lee</td>
+                <td>321 Pine Road</td>
+                <td>+6677889900</td>
+                <td>sarah.lee@example.com</td>
+            </tr>
+            <tr>
+                <td>David Clark</td>
+                <td>654 Cedar Drive</td>
+                <td>+4455667788</td>
+                <td>david.clark@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown Menu -->
+        <label for="course">Choose your course:</label>
+        <select id="course" name="course" required>
+            <option value="">--Select a Course--</option>
+            <option value="html">HTML Basics</option>
+            <option value="css">CSS Design</option>
+            <option value="js">JavaScript Programming</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required> Male<br>
+        <input type="radio" id="female" name="gender" value="female"> Female<br>
+        <input type="radio" id="other" name="gender" value="other"> Other<br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding"> Coding<br>
+        <input type="checkbox" id="design" name="interests" value="design"> Design<br>
+        <input type="checkbox" id="marketing" name="interests" value="marketing"> Marketing<br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
